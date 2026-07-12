@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1.0">
+
+    <title>AI Chat Assistant</title>
+
+    <link
+        rel="stylesheet"
+        href="{{ url_for('static', filename='css/style.css') }}">
+
+</head>
+
+<body>
+
+    <div class="container">
+
+        <header>
+
+            <h1>🤖 AI Chat Assistant</h1>
+
+            <p>Powered by Google Gemini</p>
+
+        </header>
+
+
+        <div id="chat-box">
+
+            <div class="bot-message">
+
+                👋 Hello!
+
+                <br>
+
+                How can I help you today?
+
+            </div>
+
+        </div>
+
+
+        <form id="chat-form">
+
+            <input
+                type="text"
+                id="message"
+                placeholder="Type your message..."
+                autocomplete="off"
+                required>
+
+            <button type="submit">
+
+                Send
+
+            </button>
+
+        </form>
+
+        <footer>
+
+            Built by Navin Kumar
+
+        </footer>
+
+    </div>
+
+    <script src="{{ url_for('static', filename='js/script.js') }}"></script>
+
+</body>
+
+</html>
