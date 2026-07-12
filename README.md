@@ -1,77 +1,104 @@
 # 🤖 AI Chat Assistant
 
-## 📖 Project Description
+An AI-powered chatbot built with **Flask** and **Google Gemini 2.5 Flash** that provides real-time conversational responses through a clean and responsive web interface.
 
-AI Chat Assistant is a web-based chatbot built using Flask and Google's Gemini API. It allows users to ask questions through a modern chat interface and receive AI-generated responses in real time.
+---
 
-This project was developed as part of the DStarix Generative AI Internship Week 1 assignment.
-
-## ✨ Features
+## 🚀 Features
 
 - AI-powered chatbot using Google Gemini
-- Modern responsive chat interface
-- Dynamic chat messages
-- Typing indicator
-- Error handling
-- Environment variable support
-- Clean project structure
+- Responsive web interface
+- Real-time conversation
+- Secure API key management with `.env`
+- Clean and modular project structure
 
-## 🛠 Technologies Used
+---
+
+## 🛠 Tech Stack
 
 - Python
 - Flask
-- HTML5
-- CSS3
-- JavaScript
 - Google GenAI SDK
-- Git
-- GitHub
-
-## 🚀 Installation
-
-Clone the repository
-
-```bash
-git clone YOUR_REPOSITORY_LINK
-
-## How to run 
-cd week-1-ai-chat-assistant
-python -m venv .venv
-.venv\Scripts\activate
-pip install -r requirements.txt
+- HTML
+- CSS
+- JavaScript
+- Git & GitHub
 
 ---
 
-##  Environment Variables
+## 📂 Project Structure
 
-```markdown
-## Environment Variables
+```text
+week-1-ai-chat-assistant/
+│
+├── app.py
+├── chatbot.py
+├── config.py
+├── requirements.txt
+├── README.md
+├── .env.example
+├── .gitignore
+│
+├── templates/
+├── static/
+└── screenshots/
+```
 
-Create a `.env` file in the project root.
+---
 
-Example:
+## ⚙️ Installation
+
+```bash
+git clone https://github.com/Navin-35/week-1-ai-chat-assistant.git
+
+cd week-1-ai-chat-assistant
+
+python -m venv .venv
+
+.venv\Scripts\activate
+
+pip install -r requirements.txt
+
+python app.py
+```
+
+Create a `.env` file:
 
 ```env
 GEMINI_API_KEY=YOUR_API_KEY
+```
+
+Open:
+
+```
+http://127.0.0.1:5000
+```
 
 ---
-
-## 7. Run Project
-
-```markdown
-##  Run the Application
-
-```bash
-python app.py
 
 ## 📸 Screenshots
 
-### Home Page
+### Home
 
-![Home Page](screenshots/home.png)
+![Home](screenshots/home.png)
+
+### Chat
+
+![Chat](screenshots/chat.png)
 
 ---
 
-### Chat Interface
+## 📌 Future Improvements
 
-![Chat Interface](screenshots/chat.png)
+- Conversation history
+- User authentication
+- Dark mode
+- Voice support
+
+---
+
+## 👨‍💻 Author
+
+**Navin Kumar**
+
+GitHub: https://github.com/Navin-35
