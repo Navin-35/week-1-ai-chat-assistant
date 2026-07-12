@@ -102,3 +102,11 @@ http://127.0.0.1:5000
 **Navin Kumar**
 
 GitHub: https://github.com/Navin-35
+
+---
+
+## 📄 License
+
+This project is developed for learning purposes as part of the **DStarix Generative AI Internship (Week 1)**.
+
+It is intended for educational and portfolio use only.
